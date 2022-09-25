@@ -13,7 +13,7 @@ import plotly.express as px
 
 st.title("Hello!")
 
-heart_deases= pd.read_csv("C:/Users/Ramad/Desktop/heart_deases_2020.csv")
+heart_deases= pd.read_csv("heart_deases_2020.csv")
 
 heart_deases.head()
 heart_deases_sort=heart_deases.sort_values(by=["AgeCategory","SleepTime","MentalHealth","PhysicalHealth","BMI"], ascending=True)
